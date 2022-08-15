@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+margin: 6px;
+background:rgb(217, 102, 8);
+border-radius: 5px;
+height: 30px;
+width: 70px;
+box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.301);
+transition: ease .5s;
+
+}
+
+button:active{
+    transform: scale(.9);
+}
+
+button:hover{
+    transform: translate(0px, -4px)
+                scale(1.1);
+    background:  orange;
+    
+    
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container1{
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+}
+
+.changes{
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.333);
+    height: 30px;
+}
+
+.mainHomepage{
+    background: linear-gradient(180deg, coral, rgb(232, 116, 0));
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ height: 90vh;
+
+ 
+}
+
+.imgHomepage{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+    background-image: url(https://thumbs.dreamstime.com/b/hot-pizza-slice-wooden-table-35993453.jpg);
+}
+
+.mainMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    background: linear-gradient(180deg, coral, rgb(232, 116, 0));
+    
+
+    
+
+}
+
+.menuTable{
+  
+}
+
+.menuContainer{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.271);
+    height: max-content;
+    width: max-content;
+    margin: 2rem;
+    gap: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(216, 83, 0, 0.561);
+    
+}
+
+.menuContainer>div{
+    border: 2px solid rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .25s ease;
+}
+.menuContainer>div:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 135, 14, 0.261);
+}
+
+.img1{
+    height: 15vh;
+    width: 20vh;
+background-image: url(https://freepngimg.com/thumb/pizza/33392-1-cheese-pizza.png);
+background-size: 20vh 15vh;
+background-repeat: no-repeat;
+}
+.img2{
+    height: 15vh;
+    width: 20vh;
+background-image: url(https://www.seekpng.com/png/full/6-66721_free-png-french-fries-png-images-transparent-french.png);
+background-size: 20vh 15vh;
+background-repeat: no-repeat;
+}
+.img3{
+    height: 15vh;
+    width: 20vh;
+background-image: url(https://freepngimg.com/save/23763-salad-image/1200x847);
+background-size: 20vh 15vh;
+background-repeat: no-repeat;
+}
+.img4{
+    height: 15vh;
+    width: 20vh;
+background-image: url(https://cicis.com/wp-content/uploads/2019/02/side_pastamarinara-img.png);
+background-size: 20vh 15vh;
+background-repeat: no-repeat;
+}
+.img5{
+    height: 15vh;
+    width: 20vh;
+background-image: url(https://i0.wp.com/www.freefoodguy.com/wp-content/uploads/2017/07/firehouse-subs.png?fit=370%2C300&ssl=1);
+background-size: 20vh 15vh;
+background-repeat: no-repeat;
+}
+.img6{
+    height: 15vh;
+    width: 20vh;
+background-image: url(https://cdn.shopify.com/s/files/1/0481/4392/5408/products/bd30e36a89888801df8d4f05d375b531.png?v=1646750749);
+background-size: 20vh 15vh;
+background-repeat: no-repeat;
+}
+.img7{
+    height: 15vh;
+    width: 20vh;
+background-image: url(https://cdn.shopify.com/s/files/1/0481/4392/5408/products/1c960c4a2f9c46354db35cefa9eca649.png?v=1646158447);
+background-size: 20vh 15vh;
+background-repeat: no-repeat;
+}
+.img8{
+    height: 15vh;
+    width: 20vh;
+background-image: url(https://ogden_images.s3.amazonaws.com/www.thealpenanews.com/images/2021/12/07111719/buildyourownpizza_0.png);
+background-size: 20vh 15vh;
+background-repeat: no-repeat;
+}
+
+.aboutPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, coral, rgb(232, 116, 0));
+    height: 90vh;
+}
+
+.aboutTable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: rgba(0, 0, 0, 0.341);
+height: 20vh;
+width: 20vh;
+border: none;
+border-radius: 10px;
+
+}
+.aboutTable>p{
+    
+}
